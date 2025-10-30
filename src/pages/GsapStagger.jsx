@@ -13,13 +13,13 @@ const GsapStagger = () => {
       yoyo: true,
       stagger:{
         amount:1.5,
-        grid:[2,1],
+        grid:[1 , 1],
         axis:'y',
         ease:'circ.inOut',
         from:'center'
       }
     })
-  })
+  },[])
 
   return (
     <main>
